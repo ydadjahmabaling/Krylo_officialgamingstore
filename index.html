@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krylo Market — Roblox Gaming Store</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======= INTRO / GLITCH ANIMATION ======= -->
+  <div id="intro">
+    <div class="intro-scan"></div>
+    <div class="intro-inner">
+      <span id="intro-line1"></span>
+      <span id="intro-word" class="intro-word"></span>
+      <span id="intro-line2"></span>
+    </div>
+    <div class="intro-foot">KRYLO MARKET</div>
+  </div>
+
+  <!-- ======= HEADER ======= -->
+  <header id="site-header">
+    <a class="brand" href="#/">
+      <img src="logo.png" alt="Krylo Market logo" class="brand-logo" />
+      <span class="brand-name">Krylo<em>Market</em></span>
+    </a>
+    <nav id="main-nav">
+      <a href="#/" data-nav="home">Store</a>
+      <a href="#/messages" data-nav="messages" id="nav-messages" class="hidden">Messages <span id="nav-unread" class="badge hidden"></span></a>
+      <a href="#/admin" data-nav="admin" id="nav-admin" class="hidden">Admin</a>
+      <a href="#/contact" data-nav="contact">Contact</a>
+    </nav>
+    <div id="auth-area"></div>
+  </header>
+
+  <!-- ======= MAIN VIEW ======= -->
+  <main id="view"></main>
+
+  <footer>
+    <img src="logo.png" alt="" class="foot-logo" />
+    <p><strong>Krylo Market</strong> — Premium Roblox gaming store. All prices in USD.</p>
+    <p class="foot-dim">© 2026 Krylo Market · Not affiliated with Roblox Corporation</p>
+  </footer>
+
+  <div id="modal-root"></div>
+  <div id="toasts"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
