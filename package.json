@@ -4,7 +4,7 @@
   "description": "Krylo Market - Roblox gaming store (USD) with login, admin listings and messaging",
   "private": true,
   "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js"
+    "dev": "node local-server.js",
+    "start": "node local-server.js"
   }
 }
